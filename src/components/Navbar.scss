@@ -1,0 +1,26 @@
+.header {
+  background-color: black;
+  .headerContainer {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .tittle {
+      color: white;
+      font-size: 60px;
+    }
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      .navbarLink {
+        color: whitesmoke;
+        font-size: 40px;
+      }
+    }
+  }
+}
